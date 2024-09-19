@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+.container-fluid{
+    background-color: rgb(66, 104, 66);
+}
+.nav-item a{
+    color: white !important;
+    font-weight: 600;
+}
+.navbar-brand img{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;   
+}
+.navbar-brand span {
+    color: white !important;
+    font-weight: 600;
+}
+.navbar .yel{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(44, 44, 8);
+    background-color: rgb(231, 231, 30);
+}
+#about{
+    margin-top: 6em;
+}
+.love {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.love .fol{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.love button{
+    border-radius: 10px;
+    border: 0 solid;
+    background-color: yellow;
+ 
+}
+.photo img{
+    width:250px;
+    border-radius: 180px;
+    display: block; 
+    margin-right: auto;
+    margin-left: auto; 
+}
+.menu {
+    width:130px;
+    height:130px;
+    margin-top:80px;
+    margin-left: -8px;
+}
+.menu img{
+    width:15px;
+}
+.menu1, .menu2, .menu3{
+    border: 1px solid;
+    border-color: white;
+    width: 80px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    border-style: solid;
+    padding: 5px;
+}
+.dishes{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.dish{
+    display: flex;
+    justify-content: space-between;
+}
+.bx{
+    border: 1px solid;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+}
+.c  {
+    border: 0 solid;
+    border-radius: 20px;
+    background-color: yellow;
+    padding: 10px;
+}
+ .photo1, .photo2, .photo3, .photo4{
+    border: 0 solid;
+    background-color: azure;
+    width: 250px;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto; 
+ }
+ .star{
+    color: yellow;
+ }
+ .nog, .nog2, .nog3, .nog4{
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+ }
+.nog button{
+    background-color:yellow;
+    padding: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: yellow;
+
+ }
+ .nog2 button {
+    background-color:yellow;
+    padding: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: yellow;
+
+   
+
+ }
+ .nog3 button{
+    background-color:yellow;
+    padding: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: yellow;
+ }
+  .nog4 button{
+    background-color:yellow;
+    padding: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: yellow;
+  }
+  .imge img{
+    width:250px;
+    border-radius: 180px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block; 
+   
+  }
+  .serve img{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    gap: 1em;
+  }
+  .serve{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    flex-direction: row; 
+
+  }
+  .service {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  /* .buttn button{
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: white;
+  
+  } */
+
+.pot{
+    margin-top: 3em;
+}
+.dinner button{
+    background-color: yellow;
+    padding: 5px;
+    border: 0 solid;
+    border-radius: 15px;
+}
+.soup img{
+    width: 250px;
+    border-radius: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.Blog{
+    margin-top: 3em;
+}
+.talk img{
+    width: 80px;
+    height: 80px;
+    border-radius: 120px;
+}
+.talk.talk,.talk{
+    margin-top: 20px;
+    border:0 solid;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.blog{
+    margin-top: 3em;
+}
+.chef,.chef,.chef,.chef{
+    border:0 solid;
+    background-color:whitesmoke;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 160px;
+    padding: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.chef img{
+    width: 140px;
+    height: 130px;
+
+}
+.contact{
+    margin-top: 10px;
+  
+}
+.eter{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.one, .ones{
+    border: 1px solid;
+    border-radius: 14px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+
+}
+.ones{
+    background-color: yellow;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.line b{
+    color: yellow;
+}
+.footer h1,h4{
+    color: yellowgreen;
+}
+.font button{
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 15px;
+    border: 0 solid;
+}
+.phone img{
+    width: 250px;
+    border: 5px solid;
+    border-radius: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+
+}
+.side img{
+    border: 0 solid;
+    width: 60px;
+    border-radius: 50px;
+    margin-top: 15em;
+}
+.line{
+    font-size: 20px;
+    color: rgb(71, 71, 7);
+}
+.line img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.tr{
+    display: flex;
+    justify-content: space-between;
+}
